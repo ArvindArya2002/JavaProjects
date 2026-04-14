@@ -20,6 +20,7 @@ public class p5
  {
     // Calling Sub class method from the Refrence of Super class is known as Non-Primitive Upcasting.. this is possible only in Method Overiding...
     A ob=new B();
+    System.out.println(ob.a);
     ob.func();
     B ob1=(B)ob; //Non-Primitive downcasting...
     System.out.println(ob1.a);
